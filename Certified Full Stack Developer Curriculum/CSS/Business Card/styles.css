@@ -1,0 +1,55 @@
+body {
+    background-color: rosybrown;
+    font-family: Arial, sans-serif;
+}
+
+/* MAIN */
+.business-card {
+    width: 300px;
+    background-color:rgb(227, 208, 227);
+    padding: 20px;
+    margin: 100px auto 0 auto;
+    text-align: center;
+    font-size: 16px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.profile-image {
+    width: 100px;
+    border-radius: 20%;
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+}
+
+.personal-details {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rosybrown;
+}
+
+p {
+    margin: 5px auto;
+}
+
+h2 {
+    font-size: 16px;
+    margin-bottom: 5px
+}
+
+.links p{
+    display: inline-block;
+    width: 32%
+}
+
+

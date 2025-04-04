@@ -1,0 +1,53 @@
+body {
+    background-color: antiquewhite;
+}
+
+.ToDoList {
+    margin: 50px auto;
+    width: 500px;
+    background-color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.todo-list>li{
+    list-style-position: inside;
+    list-style-type: none;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: solid 0.5px black;
+}
+
+.sub-item {
+    list-style-type: square;
+    margin-top: 10px;
+}
+
+a.sub-item-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a.sub-item-link:active {
+    color: green;
+}
+
+a.sub-item-link:hover {
+    color: salmon;
+}
+
+a.sub-item-link:visited {
+    color: green;
+}
+
+a.sub-item-link:focus {
+    color: red;
+    border: solid;
+}
