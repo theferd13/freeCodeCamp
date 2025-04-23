@@ -1,0 +1,100 @@
+body {
+    font-family: sans-serif;
+}
+
+.container {
+    margin: auto;
+    padding: 20px;
+    width: 80%;
+    min-width: 500px;
+    box-shadow: 1px 2px 5px gray;
+    border-radius: 10px; 
+    font-size: small;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+.discription {
+    margin-left: 10px;
+    margin-bottom: 2px;
+    display: block;
+    padding: 5px;
+}
+
+.input {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: block;
+    width: 80%;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+select.input {
+    width: 83%;
+}
+
+input:valid, select:valid, textarea:valid {
+    border-color: green;
+}
+
+input:focus, textarea:focus {
+    border-color: yellow;
+}
+
+input:invalid, select:invalid, textarea:invalid{
+    border-color: red;
+    border: 1px solid red;
+}
+
+fieldset {
+    margin-top: 20px;
+    margin-left: 10px;;
+    width: 80%;
+    padding: 5px;
+}
+
+.radio-group input[type="radio"]:checked {
+    accent-color: green;
+    color: green;
+    border-color: black;
+    background-color: black;
+}
+
+.radio-group input[type="radio"]:checked + label{
+    color: green;
+}
+
+#text{
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+textarea {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 80%;
+    height: 50px;
+    padding: 5px;
+}
+
+
+button {
+    display: block;
+    margin-top: 10px;
+    margin-left: 15px;
+    width: 80%;
+    padding: 5px;
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: blue;
+}

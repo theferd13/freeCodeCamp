@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application Form</h1>
+        <form>
+            <!-- NAME LABEL AND INPUT-->
+            <label class="discription" for="name">Full Name:</label>
+            <input class="input" id="name" name="name "type="text" required>
+            <!-- EMAIL LABEL AND INPUT--> 
+            <label class="discription" for="email">Email Adress:</label>
+            <input class="input" id="email" type="email" name="email" required placeholder="exampl@email.com">
+            <!-- POSITION LABEL AND SELECTION INPUT-->
+            <label class="discription" for="position">Position:</label>
+            <select name="position" id="position" class="input" required>
+                <option value="" selected disabled>Select a Position</option>
+                <option value="developer">Developer</option>
+                <option value="designer">Designer</option>
+                <option value="marketing">Marketing</option>
+            </select>
+            <!-- AVAILABILITY LABEL AND SELECTION INPUT-->
+            <fieldset class="radio-group">
+                <legend>Availability</legend>
+                <input type="radio" id="full_time" name="availability" checked>
+                <label for="full_time">Full Time</label>
+                <input type="radio" id="part_time" name="availability">
+                <label for="part_time">Part Time</label>
+            </fieldset>
+            <!-- TEXTFELD SECTION  -->
+            <label id="text" for="message">Why do you want this Job?</label>
+            <textarea id="message"  placeholder="I like working..." required></textarea>
+            <!-- SUBMIT BUTTON -->
+            <button type="submit">Submit your Application</button>
+        </form>
+    </div>
+</body>
+</html>
