@@ -1,0 +1,33 @@
+body {
+    background-color: #f4f4f4;
+    font-family: serif;
+}
+
+h1 {
+    text-align: center;
+}
+.color-grid{
+    margin:20px;
+}
+.color-box {
+    width: 80px;
+    height: 90px;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
+.color1 {
+    background-color: #00FF00;
+}
+.color2 {
+    background-color: rgb(127,0,255);
+}
+.color3 {
+    background-color: orange;
+}
+.color4 {
+    background-color: hsl(50, 40%, 50%);
+}
+.color5 {
+    background-color: red;
+}
