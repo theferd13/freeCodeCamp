@@ -1,0 +1,130 @@
+body{
+    background-color: azure;
+}
+
+#house {
+    position: relative;
+    top: 150px;
+    left: 50px;
+    width: 500px ;
+    height: 400px;
+    background-color: coral;
+    border: 5px solid saddlebrown;
+}
+
+#chimney {
+    position: absolute;
+    top:-90px;
+    left: 350px;
+    width: 50px;
+    height: 80px;
+    border: 3px solid black;
+    background-color: lightgrey;
+    z-index: -1;
+}
+
+#brick_1 {
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    width: 50px;
+    height: 15px;    
+    border: 2px solid black;
+}
+
+#brick_2 {
+    position: absolute;
+    top: 15px;
+    left: -2px;
+    width: 50px;
+    height: 15px;    
+    border: 2px solid black;
+}
+#brick_3 {
+    position: absolute;
+    top: 32px;
+    left: -2px;
+    width: 50px;
+    height: 15px;    
+    border: 2px solid black;
+}
+#brick_4 {
+    position: absolute;
+    top: 49px;
+    left: -2px;
+    width: 50px;
+    height: 15px;    
+    border: 2px solid black;
+}
+
+#window-1 {
+    position: absolute;
+    top: 125px;
+    left: 30px;
+    width: 120px;
+    height: 140px;
+    background-color: azure;
+    border: 5px solid saddlebrown;
+}
+
+#window-2 {
+    position: absolute;
+    top: 125px;
+    left: 340px;
+    width: 120px;
+    height: 140px;
+    background-color: azure;
+    border: 5px solid saddlebrown;
+}
+
+#door {
+    position: absolute;
+    top: 195px;
+    left: 188px;
+    width: 120px;
+    height: 200px;
+    background-color: antiquewhite;
+    border: 5px solid saddlebrown;
+}
+
+#door_knob {
+    position: absolute;
+    top: 100px;
+    left: 90px;
+    width: 20px;
+    height: 20px;
+    background-color: saddlebrown;
+    border-radius: 100%;
+}
+
+#roof {
+    position: absolute;
+    top: 0px;
+    left: -3px;
+    width: 500px;
+    height: 100px;
+    border:solid 3px saddlebrown;
+    background-color: coral;
+    background-image: repeating-linear-gradient(
+      45deg,
+      transparent,
+      transparent 15px,
+      saddlebrown 10px,
+        saddlebrown 20px
+        ),
+      repeating-linear-gradient(
+        135deg,
+        transparent,
+        transparent 15px,
+        saddlebrown 10px,
+        saddlebrown 20px
+      );
+}
+
+#grass {
+    position: absolute;
+    background-color: green;
+    width: 100%;
+    height: 200px;
+    z-index: -1;
+}
